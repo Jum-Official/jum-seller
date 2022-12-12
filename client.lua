@@ -74,7 +74,7 @@ function openSellMenu()
     for k, v in pairs(Config.Categorys) do
         sellMenu[#sellMenu + 1] = {
             header = v.label,
-            txt = "Bu meslek sonucu elde edilen eşyalar",
+            txt = "Items obtained as a result of this profession",
             params = {
                 event = "jum-seller:client:SetupCategory",
                 args = {
@@ -86,8 +86,8 @@ function openSellMenu()
     end
 
     sellMenu[#sellMenu + 1] = {
-        header = "Çıkış",
-        txt = "Menüyü Kapat",
+        header = "Exit",
+        txt = "Close Menu",
         params = {
             event = "qb-menu:client:closeMenu",
         }
@@ -111,7 +111,7 @@ RegisterNetEvent('jum-seller:client:SetupCategory', function(data)
     for k, v in pairs(data.items) do
         catMenu[#catMenu + 1] = {
             header = QBCore.Shared.Items[k].label,
-            txt = "Tane Fiyatı: $".. v.price,
+            txt = "Price: $".. v.price,
             params = {
                 event = "jum-seller:client:SellItem",
                 args ={
@@ -123,8 +123,8 @@ RegisterNetEvent('jum-seller:client:SetupCategory', function(data)
     end
 
     catMenu[#catMenu + 1] = {
-        header = "⬅ Geri",
-        txt = "Bir Önceki Menü",
+        header = "⬅ Back",
+        txt = "Previous Menu",
         params = {
             event = "jum-seller:client:openMenu",
         }
