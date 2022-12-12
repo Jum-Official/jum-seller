@@ -3,6 +3,7 @@ Thanks to this script, you can create a dealer in the game by multiplying the NP
 
 ### Dependencies:
 * [qb-core](https://github.com/qbcore-framework/qb-core)
+* [qb-target](https://github.com/qbcore-framework/qb-target)
 
 ### ⚠️Important:
 Don't forget to add the daily column to the players table in your database with INT value.
@@ -11,10 +12,8 @@ The resource has been tested ONLY on QBCore Framework
 
 ## Features
 
-- Turn clothes into items and swap them with your friends
-- ESX compatible (Tested with ESX Legacy)
-- Ox Core compatible
-- QB Core compatible
+- QBCore compatible
+- Only qb-target compatible
 - Optimized for low CPU usage
-- Customizable labels
-- Customizable notify system
+- Customizable NPC model
+- Customizable coordinate
