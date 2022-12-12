@@ -17,3 +17,4 @@ The resource has been tested ONLY on QBCore Framework
 - Optimized for low CPU usage
 - Customizable NPC model
 - Customizable coordinate
+- Really easy configurates in config.lua
