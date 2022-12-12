@@ -9,12 +9,12 @@ Config.Seller = {
         radius = 1.5,
         ped = 'mp_m_shopkeep_01',
         scenario = "WORLD_HUMAN_STAND_MOBILE",
-        label = "Toptancı",
+        label = "Seller",
         pedSpawned = false,
         blip = {
             sprite = 605,
             scale = 0.8,
-            label = "Toptancı",
+            label = "Seller",
             colour = 2
         }
     },
@@ -257,22 +257,22 @@ Config.Items = {
 
 Config.Categorys = {
     ["farming"] = {
-        label = "Çiftçilik Mesleği",
+        label = "Farming",
         items = Config.Items["farming"]
     },
 
     ["mining"] = {
-        label = "Madencilik Mesleği",
+        label = "Mining",
         items = Config.Items["mining"]
     },
 
     ["fishing"] = {
-        label = "Balıkçılık Mesleği",
+        label = "Fishing",
         items = Config.Items["fishing"]
     },
 
     ["scrap"] = {
-        label = "Araç Parçaları",
+        label = "Car Scrap",
         items = Config.Items["scrap"]
     },
 }
