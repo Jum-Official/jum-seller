@@ -10,8 +10,10 @@ Don't forget to add the daily column to the players table in your database with 
 <br/>
 The resource has been tested ONLY on QBCore Framework
 
+```
 ALTER TABLE `players`
 ADD COLUMN `daily` int unsigned DEFAULT '0' AFTER `last_updated`;
+```
 
 ## Features
 
