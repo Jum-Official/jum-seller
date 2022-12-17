@@ -24,3 +24,5 @@ ADD COLUMN `daily` int unsigned DEFAULT '0' AFTER `last_updated`;
 - Customizable NPC model
 - Customizable coordinate
 - Really easy configurates in config.lua
+
+[Jum Official](https://discord.gg/H2awvk7QJs)
